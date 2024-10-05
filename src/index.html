@@ -6,19 +6,27 @@
     <title>Hello Rigo with Vanilla.js</title>
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
     <div class="d-flex justify-content-center align-items-center vh-100 ">
-      <div>
-        <p class="alert alert-warning mt-4" id="domain-generator__text">
+      <div
+        id="domain-generator"
+        class="alert alert-warning d-flex align-items-center m-0"
+      >
+        <p id="domain-generator__text" class="m-0 me-3">
           If this text is <b>not</b> centered and <b>yellow</b>, you probably
           have an error
         </p>
+        <span
+          id="domain-generator__icon"
+          class="fa-regular fa-face-smile fa-2x"
+        ></span>
       </div>
       <div class="fixed-bottom p-4 text-center">
         Made with ❤️ by
